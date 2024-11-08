@@ -34,16 +34,16 @@ The program also includes incident response mechanisms like blocking IP addresse
     source env/bin/activate  # Linux/macOS
     env\Scripts\activate     # Windows
 
-3. Configure API keys (e.g., VirusTotal API key) in the  check_threat_intelligence.py file.
+3. Configure API keys (e.g., VirusTotal API key) in the check_threat_intelligence.py file.
 
 ## Usage
 
 To run all checks and initiate any necessary incident response actions, use the following command:
 
-```bash
-python cybercare_main.py
-
-
+    ```bash
+    python cybercare_main.py
+    ``` 
+    
 ## Example Usage
 When running the script, CyberCare will:
 - Check cryptographic settings for secure HTTPS connections.
