@@ -1,11 +1,11 @@
-# CyberAegis: Your Digital Hygiene Checker
+# CyberCare: Your Digital Hygiene Checker
 
-CyberAegis is a proactive way to keep your system secure and efficient. Regularly running this tool will help you stay ahead of potential threats and enhance your digital hygiene.
+CyberCare is a proactive way to keep your system secure and efficient. Regularly running this tool will help you stay ahead of potential threats and enhance your digital hygiene.
 
 
 ## Features
 
-CyberAegis includes several security modules:
+CyberCare includes several security modules:
 - **Cryptographic Health Check**: Verifies SSL/TLS certificate configurations of specified domains to ensure secure communication.
 - **Firewall Status Check**: Checks if the system's firewall is active to safeguard against unauthorized access.
 - **Password Strength Evaluation**: Assesses password complexity and entropy to ensure strong password practices.
@@ -26,8 +26,8 @@ The program also includes incident response mechanisms like blocking IP addresse
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/CyberAegis-Your-Digital-Hygiene-Checker.git
-   cd CyberAegis-Your-Digital-Hygiene-Checker
+   git clone https://github.com/username/CyberCare-Your-Digital-Hygiene-Checker.git
+   cd CyberCare-Your-Digital-Hygiene-Checker
 
 2. (Optional) Set up a virtual environment:
     ``` bash
