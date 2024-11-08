@@ -1,10 +1,11 @@
-# CyberCare: Your Digital Hygiene Checker
+# CyberAegis: Your Digital Hygiene Checker
 
-CyberCare is a Python-based security auditing utility designed to monitor and enhance your system's digital hygiene. It performs various checks to identify potential security issues and provides actionable recommendations for improving security. 
+CyberAegis is a proactive way to keep your system secure and efficient. Regularly running this tool will help you stay ahead of potential threats and enhance your digital hygiene.
+
 
 ## Features
 
-CyberCare includes several security modules:
+CyberAegis includes several security modules:
 - **Cryptographic Health Check**: Verifies SSL/TLS certificate configurations of specified domains to ensure secure communication.
 - **Firewall Status Check**: Checks if the system's firewall is active to safeguard against unauthorized access.
 - **Password Strength Evaluation**: Assesses password complexity and entropy to ensure strong password practices.
@@ -25,8 +26,8 @@ The program also includes incident response mechanisms like blocking IP addresse
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/CyberCare-Your-Digital-Hygiene-Checker.git
-   cd CyberCare-Your-Digital-Hygiene-Checker
+   git clone https://github.com/username/CyberAegis-Your-Digital-Hygiene-Checker.git
+   cd CyberAegis-Your-Digital-Hygiene-Checker
 
 2. (Optional) Set up a virtual environment:
     ``` bash
@@ -36,15 +37,7 @@ The program also includes incident response mechanisms like blocking IP addresse
 
 3. Configure API keys (e.g., VirusTotal API key) in the check_threat_intelligence.py file.
 
-## Usage
-
-To run all checks and initiate any necessary incident response actions, use the following command:
-
-    ```bash
-    python cybercare_main.py
-    ``` 
-    
-## Example Usage
+## Functionality and Working
 When running the script, CyberCare will:
 - Check cryptographic settings for secure HTTPS connections.
 - Check firewall status and provide recommendations.
@@ -79,12 +72,11 @@ In case of a detected issue, CyberCare may automatically:
 
 ## Configuration
 - **Setting API Keys**: Place API key (e.g., VirusTotal) in `check_threat_intelligence.py`.
-- **Customize Incident Responses**: Modify the actions in `cybercare_main.py` to add specific incident response rules.
+- **Customize Incident Responses**: Modify the actions in `CyberAegis_main.py` to add specific incident response rules.
 
 ## Dependencies
-To install necessary Python libraries, use:
-```bash
-pip install -r requirements.txt
+To install necessary Python libraries, use: pip install -r requirements.txt
+
 This includes:
 
 - **psutil**: For monitoring system services.
@@ -95,5 +87,3 @@ This includes:
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
-
-CyberCare is a proactive way to keep your system secure and efficient. Regularly running this tool will help you stay ahead of potential threats and enhance your digital hygiene.
